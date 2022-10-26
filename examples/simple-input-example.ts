@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import * as readline from 'readline';
 
 let rl = readline.createInterface({
@@ -7,7 +5,8 @@ let rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('who are you?', (answer) => {
-    console.log(`Hello ${answer}`);
+rl.question('What\'s your name? ', (answer) => {
+  console.log(`Hello ${answer}`);
 });
+
 

@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "testing": "./node_modules/ts-node/dist/bin.js index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hello-world": "./node_modules/ts-node/dist/bin.js examples/hello-world.ts",
+    "simple-input": "./node_modules/ts-node/dist/bin.js examples/simple-input-example.ts",
+    "problem-1": "./node_modules/ts-node/dist/bin.js celina-practice-problems/problem-1.ts",
+    "problem-2": "./node_modules/ts-node/dist/bin.js celina-practice-problems/problem-2.ts"
   },
   "author": "",
   "license": "ISC",
