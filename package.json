@@ -6,7 +6,8 @@
     "hello-world": "./node_modules/ts-node/dist/bin.js examples/hello-world.ts",
     "simple-input": "./node_modules/ts-node/dist/bin.js examples/simple-input-example.ts",
     "problem-1": "./node_modules/ts-node/dist/bin.js celina-practice-problems/problem-1.ts",
-    "problem-2": "./node_modules/ts-node/dist/bin.js celina-practice-problems/problem-2.ts"
+    "problem-2": "./node_modules/ts-node/dist/bin.js celina-practice-problems/problem-2.ts",
+    "practice-types": "./node_modules/ts-node/dist/bin.js celina-practice-problems/practice-types.ts"
   },
   "author": "",
   "license": "ISC",
