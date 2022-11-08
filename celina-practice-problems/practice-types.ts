@@ -90,3 +90,13 @@ isNumberOrString(numberOrString2);
 function isNumberOrString(numberOrString: number | string): void {
     // console.log(typeof numberOrString); hint
 }
+
+
+// NULL and UNDEFINED
+// these are empty types. undefined means that variable literally doesn't exist. null means that variable exists but
+// there is nothing in it. This is something confusing in javascript and most languages only have null
+const emptyArray = [];
+
+// see what this prints out
+// const myVar = emptyArray[0];
+// console.log(myVar);
